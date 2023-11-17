@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Q2 FA1 </title>
+		</head>
+	
+		<body>
+			<p><a id="link1" href="#div1">Link 1</a>
+			<p><a id="link2" href="#div2">Link 2</a>
+			<br>
+			<div id="div1">This is Div1</div>
+			<br>
+			<div id="div2">This is Div2</div>
+		</body>
+	
+		<style>
+			#link1:link{
+				color: skyblue;
+				background-color: purple;
+				text-decoration: none;
+				}
+			#link1:hover{
+				color:lightgreen;
+				background-color:darkblue;
+				}
+			#link1: active{
+				color:black;
+				background-color:orange;
+				}
+			#link1:visted{
+				color:yellow;
+				background-color:red;
+				}
+			#link1:focus{
+				color:skyblue;
+				background-color:pink;
+				}
+			#link2:link{
+				color:purple;
+				background-color:pink;
+				}
+			#link2:hover{
+				color:darkblue;
+				background-color:lightgreen;
+				}
+			#link2:visted{
+				color:orange;
+				background-color:yellow;
+				}
+			#link2:focus{
+				color:gray;
+				background-color:darkblue;
+				}
+			#link2:visted{
+				color:white;
+				background-color:red;
+				}
+			div{
+				border: 3px solid black;
+				width: 200px;
+				height: 150px;
+				padding: 10px;
+				}
+			div:target#div2{
+				background-color: pink;
+				color:darkblue;
+				border: 10px dotted green;
+				}
+			div:target#div1{
+				background-color:darkblue;
+				color:pink;
+				}
+		</style>
+
+</html>
